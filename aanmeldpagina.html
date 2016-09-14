@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Contactgegevens</legend>
+
+            <label for="firstname">Naam</label>
+            <input type="text" id="firstname" required>
+            <br>
+
+            <label for="prefix">Tussenvoegsel</label>
+            <input type="text" id="prefix">
+            <br>
+
+            <label for="lastname">Achternaam</label>
+            <input type="text" id="lastname" required>
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <br>
+
+            <label for="wachtwoord">Wachtwoord</label>
+            <input type="password" id="wachtwoord">
+            <br>
+
+            <label for="straat">Straatnaam</label>
+            <input type="text" id="straat" placeholder="Zonder huis nummer">
+            <br>
+
+            <label for="nummer">Huis nummer</label>
+            <input type="number" id="nummer">
+            <br>
+
+            <label for="postcode">Postcode</label>
+            <input type="number" class="postcode" pattern="[0-9]{4}" placeholder="4 nummers" />
+            <input type="text" class="postcode" pattern="[A-Z]{2}" placeholder="2 letters" />
+            <br>
+
+            <label for="telefoon">Telefoon</label>
+            <input type="tel" id="telefoon">
+            <br>
+        </fieldset>
+        <input type="submit" value="Verdergaan">
+
+
+
+
+
+    </form>
+</body>
+
+</html>
